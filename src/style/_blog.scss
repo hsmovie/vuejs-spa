@@ -1,0 +1,150 @@
+@import "./variable";
+
+.content {
+  color: $font-color;
+}
+
+.keyword {
+  margin-top: 56px;
+  font-size: 30px;
+  color: #151515;
+}
+
+.quiz-icon {
+  position: absolute;
+  left: 25px;
+  margin-top: 6px;
+}
+
+.answer-icon {
+  position: absolute;
+  left: 35px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.body {
+  width: 768px;
+  margin: 0 auto;
+  padding: 120px 0;
+  color: $font-color-3;
+
+  .margin-bottom-40px {
+    margin-bottom: 40px;
+  }
+
+  .margin-bottom-20px {
+    margin-bottom: 20px;
+  }
+
+  .margin-left {
+    margin-left: 20px;
+  }
+
+  .left-border {
+    border-left: 2px solid $primary-blue;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .border-box {
+    border: 1px solid $gray;
+    padding: 40px;
+    color: $font-color-3;
+    text-align: left;
+    position: relative;
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .margin-left-more {
+      margin-left: 40px;
+    }
+
+    .content {
+      margin-top: 5px;
+    }
+
+    .float-left {
+      display: inline-block;
+      &.border {
+        border-left: 1px solid #eaeaea;
+        padding-left: 30px;
+        margin-left: 40px;
+      }
+    }
+
+
+    ul {
+      padding-left: 20px;
+      color: $font-color;
+    }
+
+    .sub-li {
+      padding-left: 5px;
+    }
+
+    hr {
+      border: 0.5px solid $gray;
+      margin: 56px 0;
+    }
+  }
+
+  table {
+    width: 100%;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 2px solid $primary-blue;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 20px;
+
+    tr {
+      th {
+        background-color: #f3f3f4;
+        border: 1px solid #eaeaea;
+        font-weight: normal;
+        height: 54px;
+        text-align: center;
+      }
+
+      td {
+        border: 1px solid #eaeaea;
+        height: 60px;
+        text-align: center;
+
+        &.left {
+          text-align: left;
+          padding-left: 16px;
+        }
+
+        small {
+          font-size: 14px;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+
+  .chl {
+    opacity: 0.6;
+  }
+
+  .margin-top-10 {
+    margin-top: 10px;
+  }
+
+  .margin-top {
+    margin-top: 56px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 56px;
+  }
+}

@@ -1,0 +1,7 @@
+@import "./variable";
+
+@mixin min-width {
+  @media screen and (max-width: #{$min-width + 1}) {
+    @content;
+  }
+}
